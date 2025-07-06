@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Roboto Font -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.8; 
+    }
+
+    /* Fixed Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0;
+    }
+
+    nav a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    /* Page Layout */
+    .content {
+      display: flex;
+      padding: 100px 40px 40px; /* Top padding to avoid nav overlap */
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .left-panel {
+      flex: 1 1 250px;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .left-panel img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 10px;
+    }
+
+    .right-panel {
+      flex: 2 1 400px;
+    }
+
+    .right-panel h2 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        padding-top: 120px;
+        align-items: center;
+      }
+      .left-panel,
+      .right-panel {
+        max-width: 90%;
+      }
+    }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff; /* White background */
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px 16px;
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #1a73e8;
+  color: #ffffff;
+}
+
+.spaced-paragraph {
+    line-height: 2;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="fieldworks.html">Field Works</a></li>
+      <li><a href="beyond.html">Beyond Academics</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Left Panel (Image) -->
+    <div class="left-panel" style="text-align: left;">
+      <!-- <img src="images/RafsunJani2.png" alt="Your Photo" style="width: 250px; height: 250px; border-radius: 50%; object-fit: contain; background: #eee" /> -->
+       <img src="images/raf2.jpg" alt="Your Photo"/>
+      <p><i class="fas fa-envelope"></i> rafsun.2001165@bau.edu.bd</p>
+      <p><i class="fab fa-linkedin" style="color: #0a66c2;"></i> <a href="https://www.linkedin.com/in/yourusername" target="_blank">Rafsun Jani</a></p>
+    <p><i class="fas fa-file-download"></i> <a href="pdf/rafsunjani.cv.pdf" download target="_blank">CV</a></p>
+    </div>
+
+    <!-- Right Panel (About Me) -->
+    <div class="right-panel">
+      <h2 style="color: #1a73e8;">About Me</h2>
+      <p>I am a highly motivated and passionate student of Veterinary Science with a strong academic foundation and a keen interest in animal diseases, veterinary medicine, wildlife conservation, and pet animal behavior. I am particularly enthusiastic about laboratory-based research and currently engaged with the Population Medicine and Antimicrobial Resistance (AMR) Laboratory, where I am gaining hands-on experience in diagnostic and research techniques.</p>
+      <p>Beyond academics, I am deeply committed to music, photography, and community service, driven by a strong desire to contribute meaningfully to the well-being of animals and society in my home country.</p>
+      
+      <h2 style="color: #1a73e8;">Research Interests</h2>
+<ul>
+  <li>
+    <h3>Epidemiology and Management of Pet Animal Diseases:</h3>
+    Focused on identifying, monitoring, and controlling prevalent and emerging diseases in companion animals using diagnostic tools such as ELISA, PCR, and Hematology. Interested in the integration of clinical signs, laboratory diagnostics, and therapeutic approaches for effective disease management.
+  </li>
+  <li>
+    <h3>Population Medicine & Antimicrobial Resistance (AMR):</h3>
+    Investigating disease dynamics at the herd and population levels with emphasis on One Health principles. Skilled in data analysis, sample collection, and laboratory testing (e.g., culture sensitivity tests, MIC determination) to study AMR trends and develop rational antibiotic use protocols.
+  </li>
+  <li>
+    <h3>Wildlife Conservation and Health:</h3>
+    Passionate about the health monitoring and conservation of wild species, with interest in zoonotic disease surveillance, stress biology, and ecological interactions. Familiar with non-invasive sampling techniques, wildlife tracking methods, and basic GIS tools for spatial disease mapping.
+  </li>
+</ul>
+
+
+<h2 style="color: #1a73e8;">Research Experience</h2>
+
+<div style="border-left: 4px solid #1a73e8; padding-left: 20px; margin-bottom: 30px;">
+  <h3 style="margin-bottom: 5px;">
+    Hospital-based Survey on Occurrence and Management of Diseases of Dogs and Cats at the Veterinary Teaching Hospital, Bangladesh Agricultural University
+  </h3>
+  <p style="font-style: italic; color: #555; margin: 0 0 10px;">Undergraduate Research Project | Supervised by: Prof. Dr. Md. Taohidul Islam</p>
+  <p style="margin: 0 0 10px;"><strong>Funding:</strong> Ministry of Science and Technology (MoST), Bangladesh | <strong>Project Code:</strong> 2023/021</p>
+  <p style="margin: 0 0 20px;"><strong>Duration:</strong> Jul 2023 – Jun 2024</p>
+
+  <div style="background-color: #f9f9f9; padding: 15px 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <ul style="margin: 0; padding-left: 20px;">
+      <li>Conducted a comprehensive epidemiological study to assess the clinical frequency, seasonal trends, and treatment outcomes of pet animal diseases (cats and dogs) at the Veterinary Teaching Hospital (VTH), BAU.</li>
+      <li>Collected and analyzed clinical data from over 1,000 pet cases, including demographic information, clinical signs, diagnostic outcomes, and treatment responses.</li>
+      <li>Performed clinical examinations involving vital sign assessment (temperature, pulse, respiration), and supported diagnostic procedures including X-ray, ultrasound, and hematological tests.</li>
+      <li>Utilized statistical software (IBM SPSS) and spatial analysis tools (QGIS) for descriptive statistics, chi-square tests, and disease mapping to detect patterns and associations.</li>
+      <li>Identified seasonal variations in ectoparasitic infections and assessed cure rates for various common diseases using hospital records and follow-up data.</li>
+      <li>Co-authored a scientific poster presented at a national technical session, showcasing impactful findings relevant to pet disease management and veterinary public health.</li>
+    </ul>
+  </div>
+</div>
+
+
+<h2 style="color: #1a73e8;">Education</h2>
+
+<div style="display: flex; align-items: center; margin-bottom: 25px;">
+  <img src="images/bau.jpeg" alt="BAU Logo" style="width: 70px; height: auto; margin-right: 15px; border-radius: 8px;" />
+  <div>
+    <p style="margin: 0; font-weight: bold;">
+      Doctor of Veterinary Medicine (DVM) <span style="font-style: italic; font-weight: normal;">[2020 – 2024]</span>
+    </p>
+    <p style="margin: 4px 0;"><strong>Expected Graduation:</strong> Feb 2026</p>
+    <p style="margin: 4px 0;"><strong>Expected CGPA:</strong> 3.00+ <span style="font-style: italic;">(Out of 4.00)</span></p>
+    <p style="margin: 2px 0;"><strong>Bangladesh Agricultural University, Mymensingh, Bangladesh</strong></p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; margin-bottom: 25px;">
+  <img src="images/rumc.jpeg" alt="RUMC Logo" style="width: 70px; height: auto; margin-right: 15px; border-radius: 8px;" />
+  <div>
+    <p style="margin: 0; font-weight: bold;">
+      Higher Secondary Certificate <span style="font-style: italic; font-weight: normal;">[2017 – 2019]</span>
+    </p>
+    <p style="margin: 4px 0;"><strong>GPA:</strong> 5 <span style="font-style: italic;">(out of 5.00)</span></p>
+    <p style="margin: 2px 0;"><strong>Rajuk Uttara Model College, Dhaka</strong></p>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Field Works</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Roboto Font -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f5f5;
+      line-height: 1.8; 
+    }
+    h3 {
+    color: #1a73e8;
+  }
+    .image-gallery-wrapper {
+      overflow: hidden;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .image-gallery {
+      display: flex;
+      gap: 10px;
+      transition: transform 0.6s ease-in-out;
+    }
+
+    .image-gallery img {
+      width: 300px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0;
+    }
+
+    nav a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .container {
+      padding: 100px 30px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 40px;
+      color: #6e7680;
+    }
+
+    .fieldwork-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .fieldwork-card h3 {
+      margin-top: 0;
+    }
+
+    .fieldwork-card p {
+      margin: 10px 0;
+    }
+
+    .fieldwork-card ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .text-muted {
+  color: #6e7680;
+}
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+    }
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff; /* White background */
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px 16px;
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #1a73e8;
+  color: #ffffff;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="fieldworks.html">Field Works</a></li>
+      <li><a href="beyond.html">Beyond Academics</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2>Field Work Experience</h2>
+
+    <div class="fieldwork-card">
+      <h3>Selected Field Veterinarian</h3>
+      <div class="image-gallery-wrapper">
+        <div class="image-gallery" id="gallery1">
+        <img src="images/rb1.jpeg" alt="Image 1">
+        <img src="images/rb2.jpeg" alt="Image 2">
+        <img src="images/rb3.jpeg" alt="Image 3">
+        <img src="images/rb4.jpeg" alt="Image 4">
+          <img src="images/rb5.jpeg" alt="Image 1">
+          <img src="images/rb6.jpeg" alt="Image 2">
+          <img src="images/rb7.jpeg" alt="Image 3">
+          <img src="images/rb8.jpeg" alt="Image 4">
+      </div>
+      </div>
+      <p class="text-muted"><strong>Mission Rabies Bangladesh – Mass Dog Vaccination Campaign</strong><br>
+      <em>Kutupalong Registered Refugee Camp, Cox’s Bazar | May 26–29, 2025</em></p>
+
+      <ul>
+        <li>Selected as one of the official veterinarians for a high-priority international campaign led by the Worldwide Veterinary Service (WVS) in collaboration with the DGHS Bangladesh and Obhoyaronno.</li>
+        <li>Contributed to the goal of vaccinating 20,000+ dogs in 4 days to break the rabies transmission cycle in a densely populated refugee area.</li>
+        <li>Participated in field-level vaccination, data recording using the Mission Rabies App, GPS tracking, and geofenced deployment strategies.</li>
+        <li>Gained practical exposure in large-scale animal health operations, real-time data-driven disease control, and One Health collaboration in a challenging field setting.</li>
+      </ul>
+    </div>
+<div class="fieldwork-card">
+    <h3>Volunteer Veterinarian – Community Goat Vaccination Camp</h3>
+      <div class="image-gallery-wrapper">
+        <div class="image-gallery" id="gallery3">
+        <img src="images/goat1.jpg" alt="Image 1">
+        <img src="images/goat2.jpg" alt="Image 2">
+        <img src="images/goat3.jpg" alt="Image 3">
+        <img src="images/goat4.jpg" alt="Image 4">
+          <img src="images/goat5.jpg" alt="Image 1">
+          <img src="images/goat6.jpg" alt="Image 2">
+          <img src="images/goat7.jpg" alt="Image 3">
+      </div>
+      </div>
+      <p class="text-muted"><strong>Community Goat Vaccination Camp</strong><br>
+      <em>Boyra Bazar, Mymensingh | Leo Club of Bangladesh Agricultural University | 19 January 2024</em></p>
+        <ul>
+          <li>Participated in a free vaccination and veterinary medical camp organized by the Leo Club of BAU.</li>
+          <li>Vaccinated 300+ goats against Peste des Petits Ruminants (PPR) to promote herd immunity in a rural community.</li>
+          <li>Engaged with local farmers, raising awareness about disease prevention and livestock care.</li>
+          <li>Contributed to grassroots animal health services and hands-on disease control in small ruminants</li>
+        </ul>
+
+    </div>
+
+    <h2>Field Internship Experience</h2>
+
+    <div class="fieldwork-card">
+      <h3>Intern Veterinary Doctor – Government Appointed</h3>
+      <div class="image-gallery-wrapper">
+        <div class="image-gallery" id="gallery2">
+        <img src="images/haat1.jpeg" alt="Image 1">
+        <img src="images/haat2.jpeg" alt="Image 2">
+        <img src="images/haat3.jpeg" alt="Image 3">
+        <img src="images/haat4.jpeg" alt="Image 4">
+          <img src="images/haat1.jpeg" alt="Image 1">
+          <img src="images/haat2.jpeg" alt="Image 2">
+          <img src="images/haat3.jpeg" alt="Image 3">
+          <img src="images/haat4.jpeg" alt="Image 4">
+      </div>
+    </div>
+      <p class="text-muted"><strong>Eid-ul-Azha Cattle Market (গরুর হাট), Dhaka</strong><br>
+      <em>Ministry of Fisheries and Livestock, Government of Bangladesh | June 2024</em></p>
+
+      <ul>
+        <li>Officially selected and appointed by the Ministry of Livestock to serve as a veterinary intern in one of Dhaka’s largest Eid-ul-Azha cattle markets, during peak animal trade.</li>
+        <li>Performed health screenings and ante-mortem inspections of livestock to ensure animal health and prevent zoonotic disease transmission.</li>
+        <li>Assisted in diagnosing conditions such as Foot-and-Mouth Disease (FMD), Hemorrhagic Septicemia (HS), and Black Quarter (BQ).</li>
+        <li>Ensured animal welfare compliance, provided public awareness on safe animal handling, and worked with multidisciplinary teams under a high-pressure, real-time setting.</li>
+        <li>Contributed to national efforts ensuring safe food supply and public health protection during one of the largest livestock movement events in Bangladesh.</li>
+      </ul>
+      
+    </div>
+
+    <h2>Industrial Exposure</h2>
+
+    <div class="fieldwork-card">
+      
+      <h3>Academic Visit – The ACME Laboratories Ltd. (Veterinary Division)</h3>
+
+        <div style="width: 100%; text-align: center;">
+  <img src="images/acme.jpg" alt="Image 1" style="display: block; margin: 0 auto; max-width: 50%; height: auto;">
+</div>
+
+
+<p class="text-muted"><strong>Department of Pharmacology, Bangladesh Agricultural University</strong><br>
+      <em>Dhamrai Plant | 26 June 2025</em></p>
+
+      <ul>
+        <li>Participated in a structured academic tour to one of Bangladesh’s premier pharmaceutical industries, gaining practical insights into veterinary drug formulation, production, and packaging processes.</li>
+        <li>Observed industrial implementation of Good Manufacturing Practices (GMP), Quality Control (QC), and regulatory compliance within a professional production environment.</li>
+        <li>Learned about product quality assurance, distribution logistics, and supply chain systems involved in delivering safe and effective veterinary medicines.</li>
+        <li>This exposure reflects my preparedness to work in private veterinary pharmaceutical sectors, bridging academic knowledge with industry-level understanding.</li>
+      </ul>
+    </div>
+  </div>
+
+  
+
+
+
+  <script>
+    function setupCarousel(galleryId) {
+      const gallery = document.getElementById(galleryId);
+      const imgWidth = 310; // image width + gap
+      let scrollX = 0;
+      const totalWidth = gallery.scrollWidth / 2; // only original set
+  
+      setInterval(() => {
+        scrollX += imgWidth;
+        if (scrollX >= totalWidth) {
+          gallery.style.transition = 'none';
+          scrollX = 0;
+          gallery.style.transform = `translateX(-${scrollX}px)`;
+  
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              gallery.style.transition = 'transform 0.5s linear';
+            });
+          });
+        } else {
+          gallery.style.transform = `translateX(-${scrollX}px)`;
+        }
+      }, 2000);
+    }
+  
+    // Setup both galleries
+    setupCarousel('gallery1');
+    setupCarousel('gallery2');
+    setupCarousel('gallery3');
+  </script>
+  
+</body>
+</html>

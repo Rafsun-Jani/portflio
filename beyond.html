@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beyond Academics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+      line-height: 1.8;
+    }
+
+    /* Navbar Styles - unchanged */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ffffff;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    nav li {
+      margin: 0;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px 16px;
+      color: #1a73e8;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #1a73e8;
+      color: #ffffff;
+    }
+
+    /* Content Container */
+    .container {
+      padding: 100px 30px 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: bold;
+      color: #1a73e8;
+      border-left: 5px solid #1a73e8;
+      padding-left: 12px;
+      margin: 60px 0 30px;
+    }
+
+    h3 {
+      font-size: 22px;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    /* New layout for content entries */
+    .beyond-entry {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 60px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      border-left: 4px solid #1a73e8;
+      padding-left: 20px;
+      background: transparent;
+    }
+
+    .beyond-entry img {
+      width: 280px;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+      filter: drop-shadow(0 4px 6px rgba(26, 115, 232, 0.15));
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .beyond-entry img:hover {
+      transform: scale(1.05);
+    }
+
+    .beyond-details {
+      flex: 1 1 0;
+      min-width: 280px;
+      color: #444;
+    }
+
+    .beyond-details h3 {
+      margin-top: 0;
+      font-weight: 700;
+      color: #1a73e8;
+    }
+
+    .beyond-details p {
+      font-style: italic;
+      color: #666;
+      margin: 6px 0 16px;
+    }
+
+    .beyond-details ul {
+      padding-left: 18px;
+      margin: 0;
+      list-style-type: disc;
+    }
+
+    .beyond-details ul li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .beyond-entry {
+        flex-direction: column;
+        padding-left: 0;
+        border-left: none;
+      }
+
+      .beyond-entry img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 18px;
+        filter: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="fieldworks.html">Field Works</a></li>
+      <li><a href="beyond.html">Beyond Academics</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <h2>Social Work</h2>
+
+    <h3>Disaster Response & Community Service</h3>
+    <div class="beyond-entry">
+      <img src="images/flood.jpeg" alt="Flood Relief Volunteer" />
+      <div class="beyond-details">
+        <h3>Volunteer Veterinary Responder – Flood Relief for Livestock</h3>
+        <p>Feni & Moulvibazar Districts | BAU | August 2024</p>
+        <ul>
+          <li>Participated in emergency veterinary relief in flood-affected areas led by Faculty of Veterinary Science, BAU.</li>
+          <li>Delivered over 6 tons of feed and medicine with the Animal Saviors of BAU team.</li>
+          <li>Provided treatment, nutrition, and telemedicine support to livestock.</li>
+          <li>Supported ~900 farmers and collaborated with District Livestock Offices.</li>
+          <li>Effort recognized in national media (UNB) as a major student-led campaign.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>Environmental Engagement & Sustainability</h3>
+    <div class="beyond-entry">
+      <img src="images/plant.jpg" alt="Green Ambassador" />
+      <div class="beyond-details">
+        <h3>Green Ambassador – “Plant the Future” Initiative</h3>
+        <p>GREEN Network | Awarded: 2018</p>
+        <ul>
+          <li>Awarded Green Certificate for contributions to tree plantation and awareness.</li>
+          <li>Engaged in grassroots action to combat climate change impacts.</li>
+          <li>Demonstrated global citizenship and eco-conscious responsibility.</li>
+          <li>Recognized by GREEN’s CEO as a standout national participant.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>Leadership & Awards</h2>
+
+    <h3>Leadership & Cultural Engagement</h3>
+    <div class="beyond-entry">
+      <img src="images/team.jpg" alt="Team Utshob Event" />
+      <div class="beyond-details">
+        <h3>Organizing Secretary – Team Utshob (Cultural Club)</h3>
+        <p>Bangladesh Agricultural University | May 2024 – Present</p>
+        <ul>
+          <li>Led Team Utshob, promoting Bangladeshi culture and traditions on campus.</li>
+          <li>Organized major events for Pohela Boishakh, Victory Day, Nobanno Utsab, and more.</li>
+          <li>Handled event logistics, promotion, and team coordination.</li>
+          <li>Promoted national identity and cultural storytelling through art and performance.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>📸 Creative Work & Visual Storytelling</h2>
+    <div class="beyond-entry">
+      <img src="images/photography.jpg" alt="Rabies Campaign Photography" />
+      <div class="beyond-details">
+        <h3>Documentary Photographer – Rabies Awareness Campaign</h3>
+        <p>SEAOHUN | 2024</p>
+        <ul>
+          <li>Captured documentary-style visuals highlighting rabies prevention and animal welfare efforts.</li>
+          <li>Photographed fieldwork, community education, and vaccination drives to support awareness.</li>
+        </ul>
+</div>
+</div>
+<div class="beyond-entry">
+  <img src="images/exhibition.jpg" alt="Rabies Campaign Photography" />
+  <div class="beyond-details">
+        <h3>Top 20 Finalist – Nature & Adventure Photography Contest</h3>
+        <p>2nd Nature & Adventure Fest 2018 | JEEC</p>
+        <ul>
+          <li>Selected as a Top 20 Finalist nationally in a youth environmental photo contest.</li>
+          <li>Recognized for work capturing nature’s beauty and fragility.</li>
+        </ul>
+        </div>
+</div>
+
+  </div>
+</body>
+</html>
